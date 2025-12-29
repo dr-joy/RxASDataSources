@@ -1,15 +1,15 @@
 [submodule "Carthage/Checkouts/PINOperation"]
 	path = Carthage/Checkouts/PINOperation
-	url = https://github.com/pinterest/PINOperation.git
+	url = https://github.com/dr-joy/PINOperation.git
 [submodule "Carthage/Checkouts/RxDataSources"]
 	path = Carthage/Checkouts/RxDataSources
 	url = https://github.com/RxSwiftCommunity/RxDataSources.git
 [submodule "Carthage/Checkouts/PINRemoteImage"]
 	path = Carthage/Checkouts/PINRemoteImage
-	url = https://github.com/pinterest/PINRemoteImage.git
+	url = https://github.com/dr-joy/PINRemoteImage.git
 [submodule "Carthage/Checkouts/PINCache"]
 	path = Carthage/Checkouts/PINCache
-	url = https://github.com/pinterest/PINCache.git
+	url = https://github.com/dr-joy/PINCache.git
 [submodule "Carthage/Checkouts/RxSwift"]
 	url = https://github.com/ReactiveX/RxSwift.git
 	path = Carthage/Checkouts/RxSwift
