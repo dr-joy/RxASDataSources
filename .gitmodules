@@ -3,7 +3,7 @@
 	url = https://github.com/dr-joy/PINOperation.git
 [submodule "Carthage/Checkouts/RxDataSources"]
 	path = Carthage/Checkouts/RxDataSources
-	url = https://github.com/RxSwiftCommunity/RxDataSources.git
+	url = https://github.com/dr-joy/RxDataSources.git
 [submodule "Carthage/Checkouts/PINRemoteImage"]
 	path = Carthage/Checkouts/PINRemoteImage
 	url = https://github.com/dr-joy/PINRemoteImage.git

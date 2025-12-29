@@ -3,14 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		574265651F64245D0059BD8F /* AsyncDisplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E563031F28FEB3002E825B /* AsyncDisplayKit.framework */; };
-		574265661F64246E0059BD8F /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E563051F28FEBD002E825B /* RxSwift.framework */; };
-		574265671F6424830059BD8F /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E563071F28FEC4002E825B /* RxCocoa.framework */; };
-		574265691F6424BE0059BD8F /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574265681F6424BE0059BD8F /* Differentiator.framework */; };
 		57826BA01F29477000FB0414 /* RxASCollectionReloadDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57826B9F1F29477000FB0414 /* RxASCollectionReloadDataSource.swift */; };
 		57826BA21F29485500FB0414 /* RxASTableReloadDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57826BA11F29485500FB0414 /* RxASTableReloadDataSource.swift */; };
 		57826BAA1F29491800FB0414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57826BA91F29491800FB0414 /* AppDelegate.swift */; };
@@ -56,11 +52,57 @@
 		57E5636A1F291A81002E825B /* ASCollectionNode+SectionViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E563691F291A81002E825B /* ASCollectionNode+SectionViewType.swift */; };
 		57E5636C1F291ACC002E825B /* ASTableNode+SectionedViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E5636B1F291ACC002E825B /* ASTableNode+SectionedViewType.swift */; };
 		6A520ADB1831906E0BCC284C /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 497271B10CB7AAE70BBDEAF0 /* Pods_Example.framework */; };
+		A2D921E92F0258180094A754 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921DE2F0258180094A754 /* RxCocoa.xcframework */; };
+		A2D921EA2F0258180094A754 /* RxCocoa.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921DE2F0258180094A754 /* RxCocoa.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A2D921EB2F0258180094A754 /* RxDataSources.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921DF2F0258180094A754 /* RxDataSources.xcframework */; };
+		A2D921EC2F0258180094A754 /* RxDataSources.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921DF2F0258180094A754 /* RxDataSources.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A2D921ED2F0258180094A754 /* PINCache.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921E02F0258180094A754 /* PINCache.xcframework */; };
+		A2D921EE2F0258180094A754 /* PINCache.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921E02F0258180094A754 /* PINCache.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A2D921EF2F0258180094A754 /* Differentiator.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921E12F0258180094A754 /* Differentiator.xcframework */; };
+		A2D921F02F0258180094A754 /* Differentiator.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921E12F0258180094A754 /* Differentiator.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A2D921F12F0258180094A754 /* PINRemoteImage.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921E22F0258180094A754 /* PINRemoteImage.xcframework */; };
+		A2D921F22F0258180094A754 /* PINRemoteImage.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921E22F0258180094A754 /* PINRemoteImage.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A2D921F32F0258180094A754 /* PINOperation.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921E32F0258180094A754 /* PINOperation.xcframework */; };
+		A2D921F42F0258180094A754 /* PINOperation.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921E32F0258180094A754 /* PINOperation.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A2D921F52F0258180094A754 /* RxTest.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921E42F0258180094A754 /* RxTest.xcframework */; };
+		A2D921F62F0258180094A754 /* RxTest.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921E42F0258180094A754 /* RxTest.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A2D921F72F0258180094A754 /* AsyncDisplayKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921E52F0258180094A754 /* AsyncDisplayKit.xcframework */; };
+		A2D921F82F0258180094A754 /* AsyncDisplayKit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921E52F0258180094A754 /* AsyncDisplayKit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A2D921F92F0258180094A754 /* RxBlocking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921E62F0258180094A754 /* RxBlocking.xcframework */; };
+		A2D921FA2F0258180094A754 /* RxBlocking.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921E62F0258180094A754 /* RxBlocking.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A2D921FB2F0258190094A754 /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921E72F0258180094A754 /* RxRelay.xcframework */; };
+		A2D921FC2F0258190094A754 /* RxRelay.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921E72F0258180094A754 /* RxRelay.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A2D921FD2F0258190094A754 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921E82F0258180094A754 /* RxSwift.xcframework */; };
+		A2D921FE2F0258190094A754 /* RxSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2D921E82F0258180094A754 /* RxSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ACB28E05200527CB0076CAC5 /* AnimationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB28E03200524DB0076CAC5 /* AnimationTransition.swift */; };
 		ACB28E0720052A2C0076CAC5 /* ASCollectionNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB28E0620052A2C0076CAC5 /* ASCollectionNode+Rx.swift */; };
 		ACB28E0820052B520076CAC5 /* ASCollectionNode+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB28E0620052A2C0076CAC5 /* ASCollectionNode+Rx.swift */; };
 		ACB28E0920052B570076CAC5 /* AnimationTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB28E03200524DB0076CAC5 /* AnimationTransition.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A2D921FF2F0258190094A754 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A2D921F62F0258180094A754 /* RxTest.xcframework in Embed Frameworks */,
+				A2D921FA2F0258180094A754 /* RxBlocking.xcframework in Embed Frameworks */,
+				A2D921EC2F0258180094A754 /* RxDataSources.xcframework in Embed Frameworks */,
+				A2D921FC2F0258190094A754 /* RxRelay.xcframework in Embed Frameworks */,
+				A2D921EE2F0258180094A754 /* PINCache.xcframework in Embed Frameworks */,
+				A2D921F22F0258180094A754 /* PINRemoteImage.xcframework in Embed Frameworks */,
+				A2D921EA2F0258180094A754 /* RxCocoa.xcframework in Embed Frameworks */,
+				A2D921F02F0258180094A754 /* Differentiator.xcframework in Embed Frameworks */,
+				A2D921F82F0258180094A754 /* AsyncDisplayKit.xcframework in Embed Frameworks */,
+				A2D921F42F0258180094A754 /* PINOperation.xcframework in Embed Frameworks */,
+				A2D921FE2F0258190094A754 /* RxSwift.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1D239F80A6333F998A90AF83 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,7 +111,6 @@
 		3549BB581DA38A8800C63030 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3549BB8A1DA38C0A00C63030 /* RxTextureDataSourcesSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxTextureDataSourcesSpec.swift; sourceTree = "<group>"; };
 		497271B10CB7AAE70BBDEAF0 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		574265681F6424BE0059BD8F /* Differentiator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differentiator.framework; path = "../../../../Users/sondt/Library/Developer/Xcode/DerivedData/RxTextureDataSources-hjacuybyhkyzareukzfcxgvmvvmv/Build/Products/Debug-iphonesimulator/Differentiator.framework"; sourceTree = "<group>"; };
 		57826B9F1F29477000FB0414 /* RxASCollectionReloadDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxASCollectionReloadDataSource.swift; sourceTree = "<group>"; };
 		57826BA11F29485500FB0414 /* RxASTableReloadDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxASTableReloadDataSource.swift; sourceTree = "<group>"; };
 		57826BA71F29491800FB0414 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,10 +124,6 @@
 		57A64FFD1F1BF28D005C7A79 /* SectionedNodeType+BatchUpdate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SectionedNodeType+BatchUpdate.swift"; sourceTree = "<group>"; };
 		57A650201F1BF309005C7A79 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57A650211F1BF309005C7A79 /* RxASDataSources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RxASDataSources.h; sourceTree = "<group>"; };
-		57E563031F28FEB3002E825B /* AsyncDisplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AsyncDisplayKit.framework; path = "../../../../Users/sondt/Library/Developer/Xcode/DerivedData/RxTextureDataSources-hjacuybyhkyzareukzfcxgvmvvmv/Build/Products/Debug-iphonesimulator/AsyncDisplayKit.framework"; sourceTree = "<group>"; };
-		57E563051F28FEBD002E825B /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "../../../../Users/sondt/Library/Developer/Xcode/DerivedData/RxTextureDataSources-hjacuybyhkyzareukzfcxgvmvvmv/Build/Products/Debug-iphonesimulator/RxSwift.framework"; sourceTree = "<group>"; };
-		57E563071F28FEC4002E825B /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = "../../../../Users/sondt/Library/Developer/Xcode/DerivedData/RxTextureDataSources-hjacuybyhkyzareukzfcxgvmvvmv/Build/Products/Debug-iphonesimulator/RxCocoa.framework"; sourceTree = "<group>"; };
-		57E563091F28FECF002E825B /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = "../../../../Users/sondt/Library/Developer/Xcode/DerivedData/RxTextureDataSources-hjacuybyhkyzareukzfcxgvmvvmv/Build/Products/Debug-iphonesimulator/RxDataSources.framework"; sourceTree = "<group>"; };
 		57E5632B1F290656002E825B /* RxHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxHelpers.swift; sourceTree = "<group>"; };
 		57E5632D1F29066F002E825B /* ASDelegateProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASDelegateProxy.swift; sourceTree = "<group>"; };
 		57E563411F290718002E825B /* ASTableSectionedDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ASTableSectionedDataSource.swift; sourceTree = "<group>"; };
@@ -103,6 +140,17 @@
 		57E563691F291A81002E825B /* ASCollectionNode+SectionViewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ASCollectionNode+SectionViewType.swift"; sourceTree = "<group>"; };
 		57E5636B1F291ACC002E825B /* ASTableNode+SectionedViewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ASTableNode+SectionedViewType.swift"; sourceTree = "<group>"; };
 		5D6F346FB9800367EA3FFEA5 /* Pods_RxTextureDataSources_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxTextureDataSources_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D921DE2F0258180094A754 /* RxCocoa.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:272EB7D3H3:Shai Mishali"; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = Carthage/Build/RxCocoa.xcframework; sourceTree = "<group>"; };
+		A2D921DF2F0258180094A754 /* RxDataSources.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxDataSources.xcframework; path = Carthage/Build/RxDataSources.xcframework; sourceTree = "<group>"; };
+		A2D921E02F0258180094A754 /* PINCache.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PINCache.xcframework; path = Carthage/Build/PINCache.xcframework; sourceTree = "<group>"; };
+		A2D921E12F0258180094A754 /* Differentiator.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Differentiator.xcframework; path = Carthage/Build/Differentiator.xcframework; sourceTree = "<group>"; };
+		A2D921E22F0258180094A754 /* PINRemoteImage.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PINRemoteImage.xcframework; path = Carthage/Build/PINRemoteImage.xcframework; sourceTree = "<group>"; };
+		A2D921E32F0258180094A754 /* PINOperation.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PINOperation.xcframework; path = Carthage/Build/PINOperation.xcframework; sourceTree = "<group>"; };
+		A2D921E42F0258180094A754 /* RxTest.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:272EB7D3H3:Shai Mishali"; lastKnownFileType = wrapper.xcframework; name = RxTest.xcframework; path = Carthage/Build/RxTest.xcframework; sourceTree = "<group>"; };
+		A2D921E52F0258180094A754 /* AsyncDisplayKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AsyncDisplayKit.xcframework; path = Carthage/Build/AsyncDisplayKit.xcframework; sourceTree = "<group>"; };
+		A2D921E62F0258180094A754 /* RxBlocking.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:272EB7D3H3:Shai Mishali"; lastKnownFileType = wrapper.xcframework; name = RxBlocking.xcframework; path = Carthage/Build/RxBlocking.xcframework; sourceTree = "<group>"; };
+		A2D921E72F0258180094A754 /* RxRelay.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:272EB7D3H3:Shai Mishali"; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
+		A2D921E82F0258180094A754 /* RxSwift.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:272EB7D3H3:Shai Mishali"; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
 		ACB28E03200524DB0076CAC5 /* AnimationTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTransition.swift; sourceTree = "<group>"; };
 		ACB28E0620052A2C0076CAC5 /* ASCollectionNode+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ASCollectionNode+Rx.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,10 +160,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				574265691F6424BE0059BD8F /* Differentiator.framework in Frameworks */,
-				574265671F6424830059BD8F /* RxCocoa.framework in Frameworks */,
-				574265661F64246E0059BD8F /* RxSwift.framework in Frameworks */,
-				574265651F64245D0059BD8F /* AsyncDisplayKit.framework in Frameworks */,
+				A2D921FD2F0258190094A754 /* RxSwift.xcframework in Frameworks */,
+				A2D921F52F0258180094A754 /* RxTest.xcframework in Frameworks */,
+				A2D921F32F0258180094A754 /* PINOperation.xcframework in Frameworks */,
+				A2D921F92F0258180094A754 /* RxBlocking.xcframework in Frameworks */,
+				A2D921EB2F0258180094A754 /* RxDataSources.xcframework in Frameworks */,
+				A2D921ED2F0258180094A754 /* PINCache.xcframework in Frameworks */,
+				A2D921E92F0258180094A754 /* RxCocoa.xcframework in Frameworks */,
+				A2D921F12F0258180094A754 /* PINRemoteImage.xcframework in Frameworks */,
+				A2D921F72F0258180094A754 /* AsyncDisplayKit.xcframework in Frameworks */,
+				A2D921EF2F0258180094A754 /* Differentiator.xcframework in Frameworks */,
+				A2D921FB2F0258190094A754 /* RxRelay.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +192,6 @@
 				3549BB161DA3890B00C63030 /* Sources */,
 				3549BB191DA3890B00C63030 /* Tests */,
 				3549BB061DA387DB00C63030 /* Products */,
-				35CA2AD51E12933000147290 /* Configuration */,
 				357D954B1DA3F2B400AEC55F /* Frameworks */,
 				D40F7CFCBA999EA39095FA9A /* Pods */,
 			);
@@ -181,22 +235,21 @@
 		357D954B1DA3F2B400AEC55F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				574265681F6424BE0059BD8F /* Differentiator.framework */,
-				57E563091F28FECF002E825B /* RxDataSources.framework */,
-				57E563071F28FEC4002E825B /* RxCocoa.framework */,
-				57E563051F28FEBD002E825B /* RxSwift.framework */,
-				57E563031F28FEB3002E825B /* AsyncDisplayKit.framework */,
+				A2D921E52F0258180094A754 /* AsyncDisplayKit.xcframework */,
+				A2D921E12F0258180094A754 /* Differentiator.xcframework */,
+				A2D921E02F0258180094A754 /* PINCache.xcframework */,
+				A2D921E32F0258180094A754 /* PINOperation.xcframework */,
+				A2D921E22F0258180094A754 /* PINRemoteImage.xcframework */,
+				A2D921E62F0258180094A754 /* RxBlocking.xcframework */,
+				A2D921DE2F0258180094A754 /* RxCocoa.xcframework */,
+				A2D921DF2F0258180094A754 /* RxDataSources.xcframework */,
+				A2D921E72F0258180094A754 /* RxRelay.xcframework */,
+				A2D921E82F0258180094A754 /* RxSwift.xcframework */,
+				A2D921E42F0258180094A754 /* RxTest.xcframework */,
 				497271B10CB7AAE70BBDEAF0 /* Pods_Example.framework */,
 				5D6F346FB9800367EA3FFEA5 /* Pods_RxTextureDataSources_iOS.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		35CA2AD51E12933000147290 /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Configuration;
 			sourceTree = "<group>";
 		};
 		57826BA81F29491800FB0414 /* Example */ = {
@@ -312,6 +365,7 @@
 				3549BB1D1DA389CD00C63030 /* Frameworks */,
 				3549BB1E1DA389CD00C63030 /* Headers */,
 				3549BB1F1DA389CD00C63030 /* Resources */,
+				A2D921FF2F0258190094A754 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -656,7 +710,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -676,7 +731,11 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dangthaison91.RxASDataSources;
 				PRODUCT_NAME = RxASDataSources;
 				SKIP_INSTALL = YES;
@@ -695,7 +754,11 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Supporting Files/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dangthaison91.RxASDataSources;
 				PRODUCT_NAME = RxASDataSources;
 				SKIP_INSTALL = YES;
@@ -718,7 +781,10 @@
 				);
 				INFOPLIST_FILE = Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dangthaison91.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -741,7 +807,10 @@
 				);
 				INFOPLIST_FILE = Example/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dangthaison91.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
